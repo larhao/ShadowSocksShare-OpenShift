@@ -13,7 +13,7 @@ from app import donation
 from flask import render_template, send_from_directory, abort
 
 
-servers = [{'data': [], 'info': {'message': '别着急，正在爬数据，十分钟后再回来吧：）', 'url': 'http://ss.pythonic.life', 'name': '免费 ShadowSocks 帐号分享'}}]
+servers = [{'data': [], 'info': {'message': '别着急，正在爬大量ss账号数据，等两三分钟不到的时间多刷新几次，它就出来了：）', 'url': 'http://ss.pythonic.life', 'name': '免费 ShadowSocks 帐号分享'}}]
 curtime = time.ctime()
 
 encoded = ''
