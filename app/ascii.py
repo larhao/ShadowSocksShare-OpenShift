@@ -9,7 +9,8 @@ birthday_2017 = '''<!DOCTYPE html>
 </head>
 <body>
 
-<pre style="text-align: center; font:bold 8px/5px monospace;color:#000;clear:left;padding:10px;">
+ <!--<pre style="text-align: center; font:bold 8px/5px monospace;color:#000;clear:left;padding:10px;">-->
+ <pre style="text-align: center;">
 
 
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,:,,,,,,,,,,,,,,,,,,,,,:,,,,:::,,::,:::,,:::::::,::::::,,:::::::,:::::::::::::::::::::::::::~~~::~~~~~~~~~~~~~~~~=~~~~~~~~~~~~~~~===
