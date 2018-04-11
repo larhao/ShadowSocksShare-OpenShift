@@ -3,20 +3,26 @@
 
 {% block content %}
 
-<h1>
-      全部SS帐号信息（不能保证全都能用）
-</h1>
-
-<a href='/'>返回主页</a><br>
-
-<h2>必读信息</h2>
-<p>
-  请使用 ShadowSocksR 客户端，不然无法使用。<a href="/html/clients.html" target="_blank">客户端链接在此</a><br>
-  <a href="/html/notes.html" target="_blank">以前的通知信息在此</a>
-</p>
+<h3>
+    <pre>
+{{ss}}
+    </pre>
+</h3>
+<div id="announcement" style="color: #311315">
+  <h2> WARNING：</h2>
+  <h3>  
+仅供学习交流和实验用途，请自觉遵守国家法律法规；<br>
+切勿大肆宣扬带有政治色彩与宗教信仰、且具有煽动性质引导他人成为受众的敏感信息以及言论！违者责任自负！<br>
+账号的安全性不予保证，请尽量避免使用本收集站点代理进行一些隐私操作如在线支付等，对此产生的意外概不负责！<br>
+如果违反上面的内容造成任何后果（被监控、查水表），概不负责！<br>
+禁止使用并关闭该站点对于CP(Communist Party)内部成员<br>
+禁止使用代理时使用任何国产杀毒软件,任何国产浏览器<br>
+禁止使用分享的免费Shadowsocks账号作为跳板、BT下载、电驴下载等行为<br>
+如果对以上内容有异议或者不同意，请不要使用该站点爬取的任何账号，并关闭这个网页！
+  </h3>
 </div>
-<fieldset>
 
+<fieldset>
   <legend><strong>ShadowSocks服务器信息</strong></legend>
   {% for server in servers %}
     <p>
@@ -34,4 +40,12 @@
   全部SSR帐号订阅地址：<a target="_blank" href="/full/subscribe">链接</a><br>
   全部JSON格式帐号的订阅地址（每次随机从库中抽取一条json返回）：<a target="_blank" href="/full/json">链接</a>
 </fieldset>
+
+<!--<a href="/gift">礼物</a>-->
+<footer>
+  <h3>友情链接</h3>
+    <p>
+      感谢项目作者提供<a href="https://github.com/the0demiurge/ShadowSocksShare-OpenShift">heroku部署项目</a>
+    </p>
+</footer>
 {% endblock %}
