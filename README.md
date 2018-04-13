@@ -35,10 +35,8 @@
 6. 自动检测 ssr 帐号可用性
 
 
-示例网站：[ss.pythonic.life](http://ss.pythonic.life)
-备用地址：[ssr.pythonic.life](http://ssr.pythonic.life)
+示例网站：http://share-shadowsocks.herokuapp.com/
 
-博客连接：[the0demiurge.blogspot.jp](https://the0demiurge.blogspot.jp/2017/07/shadowsocks.html)
 
 ### 为该项目贡献力量：
 本项目的作者和用户们为您的所有贡献表示由衷的感谢！
@@ -49,7 +47,6 @@
 
 1. 反馈建议：到[这个页面](https://github.com/the0demiurge/ShadowSocksShare-OpenShift/issues)提交Issue
 2. 提供比较好的 ss(r) 分享链接
-3. 捐助我：如果你已经可以上 Google，打开[示例网站](http://ss.pythonic.life)并拖到最后，就能看到微信打赏二维码：）
 
 以技术类方式：
 
