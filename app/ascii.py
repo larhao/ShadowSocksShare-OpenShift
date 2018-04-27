@@ -4,7 +4,7 @@ birthday_2017 = '''<!DOCTYPE html>
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>波多野结衣</title>
+    <title>自己想去吧</title>
     <link rel="stylesheet" href="">
 </head>
 <body>
